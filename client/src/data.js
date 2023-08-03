@@ -10,22 +10,22 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
+import Work2 from './assets/project-2.png';
 import Work3 from './assets/project-3.jpeg';
 import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work5 from './assets/project-5.jpeg';
+import Work6 from './assets/project-6.jpeg';
 
-import Theme1 from './assets/purple.png';
-import Theme2 from './assets/red.png';
-import Theme3 from './assets/blueviolet.png';
-import Theme4 from './assets/blue.png';
-import Theme5 from './assets/goldenrod.png';
-import Theme6 from './assets/magenta.png';
-import Theme7 from './assets/yellowgreen.png';
-import Theme8 from './assets/orange.png';
-import Theme9 from './assets/green.png';
-import Theme10 from './assets/yellow.png';
+import Theme1 from './assets/themes/purple.png';
+import Theme2 from './assets/themes/red.png';
+import Theme3 from './assets/themes/blueviolet.png';
+import Theme4 from './assets/themes/blue.png';
+import Theme5 from './assets/themes/goldenrod.png';
+import Theme6 from './assets/themes/magenta.png';
+import Theme7 from './assets/themes/yellowgreen.png';
+import Theme8 from './assets/themes/orange.png';
+import Theme9 from './assets/themes/green.png';
+import Theme10 from './assets/themes/yellow.png';
 
 export const links = [
   {
@@ -281,7 +281,7 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Project 1',
     details: [
       {
         icon: <FiFileText />,
@@ -296,12 +296,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'JavaScript, React',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: ' ',
+        desc: 'http://http://google.com',
       },
     ],
   },
@@ -309,7 +309,7 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Project 2',
     details: [
       {
         icon: <FiFileText />,
@@ -328,8 +328,8 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: ' ',
+        desc: 'http://google.com',
       },
     ],
   },
@@ -337,7 +337,7 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Project 3',
     details: [
       {
         icon: <FiFileText />,
@@ -352,12 +352,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React JS, Node JS',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: ' ',
+        desc: 'http://google.com',
       },
     ],
   },
@@ -365,7 +365,7 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'Project 4',
     details: [
       {
         icon: <FiFileText />,
@@ -380,12 +380,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React JS, Node JS',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: ' ',
+        desc: 'http://google.com',
       },
     ],
   },
@@ -393,7 +393,7 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Project 5',
     details: [
       {
         title: 'Project : ',
@@ -408,8 +408,8 @@ export const portfolio = [
         desc: 'React JS, Node JS',
       },
       {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: ' ',
+        desc: 'http://google.com',
       },
     ],
   },
@@ -417,7 +417,7 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Project 6',
     details: [
       {
         icon: <FiFileText />,
@@ -432,12 +432,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React JS, Node JS',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
+        title: ' ',
+        desc: 'http://google.com',
       },
     ],
   },

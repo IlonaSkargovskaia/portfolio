@@ -159,3 +159,27 @@ img{
     text-align: center;
     line-height: 60px;
 }
+
+/* Social */
+
+.contact__socials {
+    display: flex;
+    column-gap: 16px;
+    margin-top: 2rem;
+}
+
+.contact__social-link{
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    transition: all .3s ease;
+}
+
+.contact__social-link:hover{
+    background-color: var(--first-color);
+    color: var(--text-white)
+}
