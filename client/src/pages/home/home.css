@@ -63,8 +63,31 @@
         grid-template-columns: 1fr; /* Один столбец на всю ширину */
     }
 
-    .home__content{
-        background-color: var(--text-white);
-        padding: 20px;
+    .home__img{
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .color__block{
+        display: none;
+    }
+
+    .home__data {
+        text-align: center;
+    }
+
+    .home__title{
+        padding: 0;
+
+    }
+
+    .home__title::before{
+        display: none;
+    }
+
+    .contact__socials{
+        justify-content: center;
     }
 }
