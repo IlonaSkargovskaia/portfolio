@@ -9,9 +9,15 @@
     transition: all .5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
+
+
 .show-menu{
     left: 0;
    
+}
+
+.nav__menu.show-menu .nav__list {
+    margin-left: 50px;
 }
 
 .nav__link{

@@ -32,10 +32,12 @@ const PortfolioItem = ({img, title, details}) => {
 
                                         <div>
                                             <span className="item__title">{title}</span>
-                                            {
-                                                
-                                            }
+                                            {index === 3 ? 
+                                            <a href={desc} target='_blank' className="item__link">{desc}</a> 
+                                            : 
                                             <span className="item__details">{desc}</span>
+                                            } 
+                                            
                                         </div>
                                     </li>
                                 );

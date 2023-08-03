@@ -301,7 +301,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: ' ',
-        desc: 'http://http://google.com',
+        desc: 'http://google.com',
       },
     ],
   },
