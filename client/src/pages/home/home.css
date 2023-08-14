@@ -59,9 +59,10 @@
 }
 
 @media screen and (max-width: 820px) {
+    
     .home {
         grid-template-columns: repeat(1, 1fr);
-        align-content: center;
+        /* align-content: center; */
     }
 
 
@@ -91,5 +92,11 @@
 
     .contact__socials{
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .style__switcher{
+        display: none;
     }
 }
