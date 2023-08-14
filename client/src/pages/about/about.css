@@ -134,10 +134,11 @@
 @media screen and (max-width: 820px) {
     .about__container, .info__list, .resume__container, .skills__container{
         grid-template-columns: repeat(1, 1fr);
+        
     }
 
     .skills__container{
-        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: repeat(2, 1fr); */
     }
 
     .about__info{
@@ -149,6 +150,24 @@
     }
 }
 
+@media screen and (max-width: 420px) {
+    .about__container, .info__list, .resume__container, .skills__container, .stats{
+        grid-template-columns: repeat(1, 1fr); 
+        align-items: flex-end;
+    }
+
+    .skills__container{
+        /* grid-template-columns: repeat(2, 1fr); */
+    }
+
+    .about__info{
+        text-align: center;
+    }
+
+    .resume__item:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
 
 
 
