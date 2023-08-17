@@ -30,6 +30,18 @@ import Work32 from "./assets/gallery1/2.png";
 import Work33 from "./assets/gallery1/3.png";
 import Work34 from "./assets/gallery1/4.png";
 
+import Work41 from "./assets/gallery4/1.png";
+import Work42 from "./assets/gallery4/2.png";
+import Work43 from "./assets/gallery4/3.png";
+
+import Work51 from "./assets/gallery5/1.png";
+import Work52 from "./assets/gallery5/2.png";
+import Work53 from "./assets/gallery5/3.png";
+
+import Work61 from "./assets/gallery6/1.png";
+import Work62 from "./assets/gallery6/2.png";
+import Work63 from "./assets/gallery6/3.png";
+
 import Theme1 from "./assets/themes/purple.png";
 import Theme2 from "./assets/themes/red.png";
 import Theme3 from "./assets/themes/blueviolet.png";
@@ -336,9 +348,10 @@ export const portfolio = [
             "React.js",
             "Node.js",
             "PostgreSQL",
+            "JWT",
             "AWS",
             "HTML5",
-            "CSS3",
+            "CSS3"
         ],
         gh: "https://github.com/IlonaSkargovskaia/finalProject",
         link: "https://ticketpro-ih1o.onrender.com/",
@@ -347,7 +360,7 @@ export const portfolio = [
         id: 2,
         title: "Recipebook",
         description:
-            "Hackathon project for Developers Institute that enables users to browse recipes by category, search for specific recipes, and access step-by-step instructions. Users can enhance their cooking experience by watching detailed recipe videos from YouTube. Additionally, the website offers the ability to register an account, allowing users to save their favorite recipes. We can add new recipes to the database automatically from the free API with one line in the terminal, or using our own REST API on the site or from the Django admin panel. ",
+            "Hackathon project in Developers Institute that enables users to browse recipes by category, search for specific recipes, and access step-by-step instructions. Users can enhance their cooking experience by watching detailed recipe videos from YouTube. Additionally, the website offers the ability to register an account, allowing users to save their favorite recipes. We can add new recipes to the database automatically from the free API with one line in the terminal, or using our own REST API on the site or from the Django admin panel. ",
         gallery: [
             {
                 original: Work21,
@@ -411,6 +424,75 @@ export const portfolio = [
         languages: ["JavaScript", "HTML", "SCSS"],
         gh: "https://github.com/IlonaSkargovskaia/plants",
         link: "https://ilonaskargovskaia.github.io/plants/",
+    },
+    {
+        id: 4,
+        title: "Memory game",
+        description:
+            "Mini-project built on React.js. Functionalities: Everytime the user clicks on a new card, he gets a point.If the user clicks twice on the same card, the score goes back to zero. The best score of the user displayed in section Top Score",
+        gallery: [
+            {
+                original: Work41,
+                thumbnail: Work41,
+            },
+            {
+                original: Work42,
+                thumbnail: Work42,
+            },
+            {
+                original: Work43,
+                thumbnail: Work43,
+            },
+        ],
+        languages: ["React.js", "JSON", "HTML", "CSS"],
+        gh: "https://github.com/IlonaSkargovskaia/memory",
+        link: "https://memory-prm8.onrender.com/",
+    },
+    {
+        id: 5,
+        title: "Todo List",
+        description:
+            "Every self-respecting developer should have in his portfolio basic 'Todo List' ;) Mini-project at the Developers Institute after 5 days learning React.js",
+        gallery: [
+            {
+                original: Work51,
+                thumbnail: Work51,
+            },
+            {
+                original: Work52,
+                thumbnail: Work52,
+            },
+            {
+                original: Work53,
+                thumbnail: Work53,
+            },
+        ],
+        languages: ["React.js", "HTML", "CSS"],
+        gh: "https://github.com/IlonaSkargovskaia/todos",
+        link: "https://todos-fdjo.onrender.com/",
+    },
+    {
+        id: 6,
+        title: "Quotes generator",
+        description:
+            "Mini-project based on React.js in Developers Institute with random quotes and random colors with nice animation after clicking on the generate button",
+        gallery: [
+            {
+                original: Work61,
+                thumbnail: Work61,
+            },
+            {
+                original: Work62,
+                thumbnail: Work62,
+            },
+            {
+                original: Work63,
+                thumbnail: Work63,
+            },
+        ],
+        languages: ["React.js", "JSON", "HTML", "CSS"],
+        gh: "https://github.com/IlonaSkargovskaia/quotes",
+        link: "https://quotes-1ztt.onrender.com",
     },
 ];
 
