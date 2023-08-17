@@ -4,11 +4,12 @@
     align-items: center;
     height: 100vh;
     padding: 40px;
+    justify-items: center;
 }
 
 
 .home__img{
-    height: 85%;
+    height: 75%;
     object-fit: cover;
 }
 

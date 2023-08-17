@@ -1,5 +1,8 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 .portfolio__container{
     grid-template-columns: repeat(3, 1fr);
+    /* padding: 0 90px ; */
 }
 
 .portfolio__item{
@@ -111,13 +114,66 @@
     object-fit: cover;
 }
 
+.row{
+    display: flex;
+    gap: 3rem;
+}
+.col-4{
+    width: 32%;
+}
+
+.col-8{
+    width: 75%;
+}
+
+.col-4 img{
+    /* max-height: 400px; */
+}
+
+.card{
+    border: 1px solid #e7e7e7;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-links{
+    display: flex;
+    gap: 3rem;
+    font-size: var(--h3-font-size);
+}
+
+.card-links svg{
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    margin-bottom: 5px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+    height: 120px;
+    width: 30px;
+}
+
+.image-gallery-icon.image-gallery-play-button{
+    display: none;
+}
+
+.lang_btn{
+    padding: 10px 25px;
+}
+
 @media screen and (max-width: 1300px) {
     .container{
         padding-inline: 100px;
     }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1100px) {
 
     .container{
         padding-inline: 80px;
@@ -133,6 +189,29 @@
 
     .portfolio__img {
         height: 400px;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .col-4{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .col-8{
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-links{
+        justify-content: center;
+    }
+
+    .lang_btn {
+        padding: 6px 13px;
+        margin: 0 2px;
     }
 }
 
@@ -156,4 +235,6 @@
     .portfolio__img {
         height: 400px;
     }
+
+    
 }
